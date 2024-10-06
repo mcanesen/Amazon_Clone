@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -191,13 +192,13 @@ span {
 
 .box {
   height: 440px;
-  width: 23px;
   background-color: white;
   padding: 20px 15px;
   margin-top: 15px;
 }
 .box-img {
   height: 300px;
+  width: 365px;
   background-size: cover;
   margin: 16px 0;
 }
@@ -205,6 +206,118 @@ span {
 .box-content {
   margin-left: 16px;
   margin: 16px;
+}
+.box-content p{
+    color: #68a4b1;
+}
+
+/* category */
+.container {
+    background-color: #e2e7e6;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+}
+
+.title a {
+    color: #486f78;
+}
+.title a:hover{
+    text-decoration: underline;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px 0;
+    gap: 20px;
+}
+.box1 {
+    height: 400px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.box-img img{
+    width: 100%;
+    height: 250px;
+}
+
+.box1-content {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 5px 0;
+}
+
+.box1-content p{
+    color: crimson;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.box1-content p span {
+    background-color: crimson;
+    color: white;
+    margin-right: 6px;
+    font-size: 13px;
+}
+
+.foot-panel1 {
+    background-color: #364759;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.foot-panel1 a {
+    color: white;
+}
+/*  Footer */
+
+footer{
+    margin-top: 20px;
+}
+
+.foot-panel1:hover{
+    background-color: #4b5c6b;
+    cursor: pointer;
+}
+
+/* foot-panel2 */
+
+.foot-panel2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212f3d;
+    color: white;
+    height: 290px;
+    padding: 20px;
+}
+
+.foot-panel2 a {
+    color: rgb(200,200,200);
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    transition: all .5s;
+
+}
+
+.foot-panel2 a:hover{
+    color: #fabd68;
+
+}
+
+.foot-panel2 ul{
+    margin-top: 20px;
 }
 
 
